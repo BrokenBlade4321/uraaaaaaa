@@ -117,7 +117,7 @@ def get_files_id(region: str, start_date, end_date):  # добавил стартовую и коне
     file.extractall(district)
 
 
-for district, id in REGIONS.items():
+for district, item_id in REGIONS.items():
     start_date = Date("1.2021")  # начальная дата
     end_date = Date("12.2021")  # конечная дата
     print(f'Downloading {district}')
