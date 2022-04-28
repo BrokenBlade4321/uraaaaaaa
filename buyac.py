@@ -188,7 +188,7 @@ def animate(i,bot):
     ax1.plot(bot.linear_list)
     ax1.plot([i+bot.sigma for i in bot.linear_list])
     ax1.plot([i-bot.sigma for i in bot.linear_list])
-
+    print(7)
     plt.xlabel('Дата')
     plt.ylabel('Цена')
     plt.title('Обновляемые графики в matplotlib')
