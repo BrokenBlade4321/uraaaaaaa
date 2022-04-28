@@ -210,6 +210,7 @@ def trading():
             bot.long_update()
             i=0
         print(i)
+        print(i)
 child1 = Thread(target=trading)    # задаем дочерний поток №1, который осуществляет парсинг
 child1.start()
 #child2 = Thread(target=animat)    # задаем дочерний поток №1, который осуществляет парсинг
